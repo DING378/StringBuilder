@@ -34,12 +34,12 @@
 				str2 += str.substring(i * 7, str.length());  
 				break;  
 			}  
-			if ((i * 7) % 2 == 0) {
-				str2 += str.substring(i * 7, i * 7 + 7) + "，";
-			} else {
-				str2 += str.substring(i * 7, i * 7 + 7) + "。" + "\n";
-			}
-		}  
+			if ((i * 7) % 2 == 0) {  
+				str2 += str.substring(i * 7, i * 7 + 7) + "，";  
+			} else {  
+				str2 += str.substring(i * 7, i * 7 + 7) + "。" + "\n";  
+			}  
+		}    
 
   2. 定义一个统计变量，初始化值是0
 		int count = 0;
