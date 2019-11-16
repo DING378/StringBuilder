@@ -57,7 +57,7 @@
 		return count;  
    
 # 五、运行结果
-
+https://github.com/DING378/StringBuilder/blob/master/%E6%89%B9%E6%B3%A8%202019-11-16%20153349.png
 
 # 六、实验心得
 1、这次的实验难度确实比上次降低了;  
