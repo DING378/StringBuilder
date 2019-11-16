@@ -31,9 +31,9 @@
 1.每7个汉字加入一个标点符号，奇数时加“，”，偶数时加“。”  
 		for (int i = 0; i < str.length(); i++) {  
 			if (i * 7 + 7 > str.length()) {  
-				str2 += str.substring(i * 7, str.length());
-				break;
-			}
+				str2 += str.substring(i * 7, str.length());  
+				break;  
+			}  
 			if ((i * 7) % 2 == 0) {
 				str2 += str.substring(i * 7, i * 7 + 7) + "，";
 			} else {
