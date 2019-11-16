@@ -28,9 +28,9 @@
 6.getCount()方法完成后，在StringBuilder类中调用，并实现最终的功能查找  
 
 # 四、核心代码。
-1.每7个汉字加入一个标点符号，奇数时加“，”，偶数时加“。”
-		for (int i = 0; i < str.length(); i++) {
-			if (i * 7 + 7 > str.length()) {
+1.每7个汉字加入一个标点符号，奇数时加“，”，偶数时加“。”  
+		for (int i = 0; i < str.length(); i++) {  
+			if (i * 7 + 7 > str.length()) {  
 				str2 += str.substring(i * 7, str.length());
 				break;
 			}
@@ -40,6 +40,7 @@
 				str2 += str.substring(i * 7, i * 7 + 7) + "。" + "\n";
 			}
 		}  
+
   2. 定义一个统计变量，初始化值是0
 		int count = 0;
 		// 先在大串中查找一次小串第一次出现的位置
